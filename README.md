@@ -32,5 +32,5 @@ docker run -d --name ui --network my_network \
   -p 8080:80 \
   frontend
 
-
+Deploy Link: https://bingo-driven-front-end.vercel.app
 
