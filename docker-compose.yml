@@ -1,0 +1,15 @@
+version: "3.9"
+
+services:
+  frontend:
+    build: ./Bingo-Driven-FrontEnd
+    image: frontend
+    container_name: frontend_container
+    ports:
+      - "8080:80"
+    networks:
+      - my_network
+
+networks:
+  my_network:
+    external: true   
